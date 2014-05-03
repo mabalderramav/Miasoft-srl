@@ -1,0 +1,91 @@
+a
+{
+	text-decoration: none;
+}
+body
+{
+	background: #FBF4E8;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
+header
+{
+	background: #FF9B05;
+	color: white;
+	overflow: hidden;
+	padding: 0.5em 0;
+}
+header figure
+{
+	float: left;
+	width: 100px;
+}
+header h1
+{
+	font-size: 1.8em;
+	font-weight: normal;
+	font-style: italic;
+}
+header h1 p
+{
+	margin: 0;
+	padding: 0;
+}
+header h1 #subtitulo
+{
+	font-size: 0.4em;
+	font-style: normal;
+	margin-left: 12em;
+	padding-left: 1.65em;
+}
+header h1 #titulo strong
+{
+	font-family: 'Great Vibes', cursive;
+}
+header #logo
+{
+	/*border-right: 2px solid white;*/
+	/*padding: 0 0.7em 0 0;*/
+	margin: 0.2em 1.5em 0.2em 1em;
+}
+header #logo img
+{
+	border-radius: 50%;
+	margin: 0;
+	width: 100%;
+}
+nav
+{
+	background: #1D89FF;
+	overflow: hidden;
+}
+nav ul
+{
+	list-style: none;
+	margin: 0;
+	padding: 0 0 0 0.2em;
+}
+nav ul li
+{
+	border-right: 2px solid white;
+	display: inline-block;
+	margin: 0.2em 0;
+	padding: 0.2em 0;
+}
+nav ul li a
+{
+	color:white;
+	display: block;
+	padding: 0.5em;
+}
+section article figure
+{
+	min-width: 256px;
+	max-width: 512px;
+}
+section article figure img
+{
+	width: 100%;
+}

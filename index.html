@@ -8,8 +8,12 @@
 	<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700' rel='stylesheet' type='text/css'>
 	<link href='http://fonts.googleapis.com/css?family=Great+Vibes' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="normallize.css">
+	<link rel="stylesheet" href="flexslider.css">
 	<link rel="stylesheet" href="estilos.css">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
 	<script src="prefixfree.js"></script>
+	<script src="jquery.flexslider-min.js"></script>
+	<script src="js.js"></script>
 </head>
 <body>
 	<header>
@@ -34,7 +38,7 @@
 				<a href="#">Inicio</a>
 			</li>
 			<li>
-				<a href="#">CCTV</a>
+				<a href="#cctv">CCTV</a>
 			</li>
 			<li>
 				<a href="#">IPCCTV</a>
@@ -49,10 +53,28 @@
 	</nav>
 	<section id="contenido">
 		<section id="inicio">
-			aqui va todo lo que pertenece a INICIO
+			<div id="galeria-imagenes">
+				<div class="flexslider">
+				  <ul class="slides">
+				    <li>
+	  	    	    	<img src="images/kitchen_adventurer_cheesecake_brownie.jpg" />
+	  	    		</li>
+	  	    		<li>
+	  	    	    	<img src="images/kitchen_adventurer_lemon.jpg" />
+	  	    		</li>
+	  	    		<li>
+	  	    	    	<img src="images/kitchen_adventurer_donut.jpg" />
+	  	    		</li>
+	  	    		<li>
+	  	    	    	<img src="images/kitchen_adventurer_caramel.jpg" />
+	  	    		</li>
+				  </ul>
+				</div>
+			</div>
+			
 		</section>
 		<section id="cctv">
-			aqui va todo lo que pertenece a CCTV
+			aqui va todo lo que pertenece a CCTV de joselo
 		</section>
 	</section>
 	<footer>

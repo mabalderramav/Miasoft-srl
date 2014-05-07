@@ -131,6 +131,18 @@ section article figure img
 	width: 100%;
 }
 
+#contenido
+{
+	background: red;
+	max-width: 1000px;
+	padding: 1em;
+}
+/*Section*/
+#contenido #inicio #galeria-imagenes
+{
+	min-width: 300px;
+}
+
 @media screen and (min-width: 800px){
 	
 	header #header

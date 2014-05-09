@@ -133,15 +133,24 @@ section article figure img
 
 #contenido
 {
-	background: red;
 	max-width: 1000px;
-	padding: 1em;
+	min-width: 300px;
+	padding: 0 1em;
 }
 /*Section*/
-#contenido #inicio #galeria-imagenes
+#contenido #inicio
 {
-	min-width: 300px;
+	background: #FF9B05;/*#14CC51;*/
+	padding: 1em .5em .1em .5em;
 }
+#contenido #inicio #galeria-imagenes .flexslider .slides li p .titulo-imagen
+{
+	display: block;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: .2em;
+}
+
 
 @media screen and (min-width: 800px){
 	

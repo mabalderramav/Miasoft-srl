@@ -1,0 +1,27 @@
+#contenido
+{
+	max-width: 900px;
+	min-width: 300px;
+	margin: auto;
+}
+#contenido #enContrucion img
+{
+	max-width: 900px;
+}
+#contenido #hola
+{
+	max-width: 600px;
+	margin: auto;
+}
+#contenido figure
+{
+	display: inline-block;
+}
+#contenido #html5 img
+{
+	max-width: 150px;
+}
+#contenido #logo img
+{
+	max-width: 280px;
+}

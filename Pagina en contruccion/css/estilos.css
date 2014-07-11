@@ -1,27 +1,52 @@
+body
+{
+	background: white;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	margin: 0;
+	padding: 0;
+}
 #contenido
 {
 	max-width: 900px;
 	min-width: 300px;
 	margin: auto;
+	text-align: center;
 }
+#contenido h1
+{
+	font-size: 1.2em;
+}
+#contenido h1 #titulo
+{
+	font-style: italic;
+} 
 #contenido #enContrucion img
 {
 	max-width: 900px;
 }
-#contenido #hola
+/*#contenido #hola
 {
-	max-width: 600px;
+	max-width: 900px;
 	margin: auto;
-}
-#contenido figure
+}*/
+#contenido #hola figure
 {
 	display: inline-block;
 }
-#contenido #html5 img
+#contenido #hola #html5 img
 {
-	max-width: 150px;
+	max-width: 80px;
 }
-#contenido #logo img
+#contenido #hola #logo img
 {
-	max-width: 280px;
+	max-width: 180px;
+}
+#contenido #hola #faceboock img
+{
+	max-width: 100px;		
+}
+#contenido #hola #youtube img
+{
+	max-width: 100px;	
 }
